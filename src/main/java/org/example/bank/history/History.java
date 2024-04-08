@@ -38,6 +38,7 @@ public class History {
     @CreationTimestamp
     private LocalDateTime createdAt;
 
+    //왜 안돼는거야 ? 멍청이ㅑ?
     @Builder
     public History(Long id, Account sender, Account receiver, Long amount, Long senderBalance, Long receiverBalance, LocalDateTime createdAt) {
         this.id = id;
